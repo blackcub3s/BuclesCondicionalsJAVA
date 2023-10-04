@@ -3,6 +3,7 @@
 Per a això es llançarà el dau 1.000.000 de vegades i es visualitzarà quantes vegades a aparegut cada número i el 
 percentatge que representa respecte al total.
  */
+
 //@author santi
 public class ExerciciB12 {
 
