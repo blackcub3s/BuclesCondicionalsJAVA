@@ -17,9 +17,9 @@ public class ExerciciB10 {
 		for (int i = 0; i < nreTirades; ++i) {
 			nAleatori = Math.random();
 			if (nAleatori < 0.5)
-				sumatoriCares += (int) Math.ceil(nAleatori); //fem casting perque la funció floor torna double si entra un double, i volem enters.
+				sumatoriCares += 1; 
 			else if (nAleatori > 0.5)
-				sumatoriCreus += (int) Math.ceil(nAleatori);
+				sumatoriCreus += 1;
 			
 			//NO INCLOEM UN ELSE PERQUÈ EL 0.5 exacte, de retornar-se com a valor aleatori, 
 			//hauria de ser comptabilitzat com si fos un canto i la moneda no hagués caigut ni cara ni creu.
