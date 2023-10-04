@@ -51,7 +51,8 @@ public class ExerciciB12 {
 		System.out.println("Total de valors 5: " + sum5 + "(" + percentatgeCara5 + " %)");		
 		System.out.println("Total de valors 6: " + sum6 + "(" + percentatgeCara6 + " %)");		
 		
-		System.out.println("_____________________________________\nTOTAL TIRADES:     "+totalTirades);
+		double percentatgeTotal = percentatgeCara1 + percentatgeCara2 + percentatgeCara3 + percentatgeCara4 + percentatgeCara5 + percentatgeCara6;
+		System.out.println("___________________________________\nTOTAL TIRADES:    "+totalTirades+ "(" + percentatgeTotal + " %)");
 		
 	
 	}
